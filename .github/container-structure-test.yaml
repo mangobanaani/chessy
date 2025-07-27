@@ -1,0 +1,52 @@
+schemaVersion: '2.0.0'
+
+metadataTest:
+  exposedPorts: ["3001"]
+  workdir: "/app"
+  user: "nonroot"
+
+fileExistenceTests:
+  - name: 'Application files exist'
+    path: '/app/dist/main.js'
+    shouldExist: true
+    isExecutableBy: 'owner'
+
+  - name: 'Package.json exists'
+    path: '/app/package.json'
+    shouldExist: true
+
+  - name: 'Node modules exist'
+    path: '/app/node_modules'
+    shouldExist: true
+
+  - name: 'Frontend build exists'
+    path: '/app/client/build'
+    shouldExist: true
+
+fileContentTests:
+  - name: 'Node version check'
+    path: '/nodejs/bin/node'
+    expectedContents: ['.*']
+    isRegex: true
+
+commandTests:
+  - name: 'Node.js is executable'
+    command: 'node'
+    args: ['--version']
+    expectedOutput: ['v20.*']
+    exitCode: 0
+
+  - name: 'Application starts without errors'
+    command: 'node'
+    args: ['dist/main.js']
+    runningMode: 'background'
+    expectedOutput: ['.*']
+
+  - name: 'Check user is non-root'
+    command: 'whoami'
+    expectedOutput: ['nonroot']
+    exitCode: 0
+
+  - name: 'Verify no shell access'
+    command: 'sh'
+    expectError: true

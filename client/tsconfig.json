@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    
+    /* Strict Type-Checking Options - Microsoft Recommended with some adjustments */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false, /* Temporarily disabled for migration */
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": false, /* Temporarily disabled for migration */
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": false, /* Temporarily disabled for migration */
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": false, /* Temporarily disabled for migration */
+    
+    /* Emit */
+    "noEmit": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    
+    /* Interop Constraints */
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}
