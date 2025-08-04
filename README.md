@@ -11,6 +11,12 @@
   [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![Playwright](https://img.shields.io/badge/Playwright-1.54-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
   
+  ### 🚀 **[▶️ Play Live Demo](https://chessy-mu.vercel.app/)** 
+  
+  <a href="https://chessy-mu.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_Live_Demo-chessy--mu.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+  
 </div>
 
 ## 🛠️ **Tech Stack & Architecture**
@@ -513,6 +519,9 @@ interface ChessRenderer {
 
 ## 🚀 **Getting Started**
 
+### **🎮 Try It Now**
+**Quick Start**: Visit the live demo at **[https://chessy-mu.vercel.app/](https://chessy-mu.vercel.app/)** - no installation required!
+
 ### **Prerequisites**
 ```bash
 🟢 Node.js    >= 20.0.0
@@ -674,6 +683,17 @@ npm run lint          # ESLint checking
 ```
 
 ## Deployment
+
+### 🌐 Live Demo
+The application is deployed and available at: **[https://chessy-mu.vercel.app/](https://chessy-mu.vercel.app/)**
+
+Features available in the live demo:
+- ✅ **Full Chess Game** with advanced AI opponent
+- ✅ **Multiple Difficulty Levels** (Beginner to Master)
+- ✅ **AI Move Suggestions** and position analysis
+- ✅ **Modern Glassmorphic UI** with smooth animations
+- ✅ **Comprehensive Chess Rules** including special moves
+- ✅ **Responsive Design** optimized for desktop and mobile
 
 ### Production Build
 ```bash
