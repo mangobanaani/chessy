@@ -3,7 +3,7 @@
 <div align="center">
   <img src="chessy.png" alt="Chessy Chess Game" width="400" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
   
-  <h3>🏆 Advanced Single-Player Chess Experience with AI Intelligence</h3>
+  <h3>Advanced Single-Player Chess Experience with AI Intelligence</h3>
   
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-19.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
@@ -11,15 +11,15 @@
   [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![Playwright](https://img.shields.io/badge/Playwright-1.54-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
   
-  ### 🚀 **[▶️ Play Live Demo](https://chessy-mu.vercel.app/)** 
+  ### **[Play Live Demo](https://chessy-mu.vercel.app/)** 
   
   <a href="https://chessy-mu.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🎮_Live_Demo-chessy--mu.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+    <img src="https://img.shields.io/badge/Live_Demo-chessy--mu.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
   </a>
   
 </div>
 
-## 🛠️ **Tech Stack & Architecture**
+## Tech Stack & Architecture
 
 <div align="center">
 
@@ -31,7 +31,7 @@
 
 </div>
 
-### 🏗️ **Architecture Overview**
+### **Architecture Overview**
 
 ```mermaid
 graph TB
@@ -136,7 +136,7 @@ graph TD
 
 ## Component Call Flow
 
-## 📋 **Technical Specifications**
+## **Technical Specifications**
 
 <div align="center">
 
@@ -159,20 +159,20 @@ graph TD
 ### **Development Features**
 
 ```bash
-🚀 Hot Reload              ⚡ Fast Refresh
-🔄 Watch Mode               🛠️ Development Tools  
-📊 Test Coverage           🎭 E2E Testing
-🔍 Type Checking           📝 Auto-formatting
+Hot Reload              Fast Refresh
+Watch Mode              Development Tools  
+Test Coverage           E2E Testing
+Type Checking           Auto-formatting
 ```
 
 ### **Browser Support**
 
 | **Desktop** | **Mobile** | **Engine** |
 |:---:|:---:|:---:|
-| Chrome 90+ | iOS Safari | Chromium ✅ |
-| Firefox 88+ | Android Chrome | WebKit ✅ |
-| Safari 14+ | Edge Mobile | Gecko ✅ |
-| Edge 90+ | Samsung Internet | V8 ✅ |
+| Chrome 90+ | iOS Safari | Chromium |
+| Firefox 88+ | Android Chrome | WebKit |
+| Safari 14+ | Edge Mobile | Gecko |
+| Edge 90+ | Samsung Internet | V8 |
 
 </div>
 
@@ -517,85 +517,85 @@ interface ChessRenderer {
 └── README.md             # Project documentation
 ```
 
-## 🚀 **Getting Started**
+## **Getting Started**
 
-### **🎮 Try It Now**
+### **Try It Now**
 **Quick Start**: Visit the live demo at **[https://chessy-mu.vercel.app/](https://chessy-mu.vercel.app/)** - no installation required!
 
 ### **Prerequisites**
 ```bash
-🟢 Node.js    >= 20.0.0
-🟢 npm        >= 10.0.0
-🟢 Git        Latest
+Node.js    >= 20.0.0
+npm        >= 10.0.0
+Git        Latest
 ```
 
 ### **Quick Start**
 ```bash
-# 📥 Clone the repository
+# Clone the repository
 git clone <repository-url>
 cd chess
 
-# 📦 Install all dependencies
+# Install all dependencies
 npm install && cd client && npm install && cd ..
 
-# 🚀 Start the full application (Frontend + Backend)
+# Start the full application (Frontend + Backend)
 npm run start:full
 ```
 
-### **🌐 Access Points**
+### **Access Points**
 ```bash
-🎮 Chess Game:     http://localhost:3000
-🔧 API Server:     http://localhost:3001
-📊 Test Reports:   ./playwright-report/
+Chess Game:     http://localhost:3000
+API Server:     http://localhost:3001
+Test Reports:   ./playwright-report/
 ```
 
 ### **Development Commands**
 
 <details>
-<summary><strong>📱 Frontend Commands</strong></summary>
+<summary><strong>Frontend Commands</strong></summary>
 
 ```bash
 cd client
 
-npm start              # 🔥 Development server with hot reload
-npm run build          # 📦 Production build
-npm test              # 🧪 Jest unit tests
-npm run test:coverage # 📊 Test coverage report
+npm start              # Development server with hot reload
+npm run build          # Production build
+npm test              # Jest unit tests
+npm run test:coverage # Test coverage report
 ```
 
 </details>
 
 <details>
-<summary><strong>⚙️ Backend Commands</strong></summary>
+<summary><strong>Backend Commands</strong></summary>
 
 ```bash
-npm run start:dev      # 🔥 NestJS development server
-npm run start:prod     # 🚀 Production server
-npm test              # 🧪 Backend unit tests
-npm run test:e2e      # 🔍 Backend integration tests
+npm run start:dev      # NestJS development server
+npm run start:prod     # Production server
+npm test              # Backend unit tests
+npm run test:e2e      # Backend integration tests
 ```
 
 </details>
 
 <details>
-<summary><strong>🎭 Testing Commands</strong></summary>
+<summary><strong>Testing Commands</strong></summary>
 
 ```bash
-npm run test:playwright        # 🎭 Run all E2E tests
-npm run test:playwright:ui     # 🖥️ Playwright UI mode
-npm run test:playwright:headed # 👀 Run tests with browser UI
-npm run test:playwright:debug  # 🐛 Debug mode for tests
+npm run test:playwright        # Run all E2E tests
+npm run test:playwright:ui     # Playwright UI mode
+npm run test:playwright:headed # Run tests with browser UI
+npm run test:playwright:debug  # Debug mode for tests
 ```
 
 </details>
 
 <details>
-<summary><strong>🔧 Development Tools</strong></summary>
+<summary><strong>Development Tools</strong></summary>
 
 ```bash
-npm run lint           # 🔍 ESLint code analysis
-npm run format         # ✨ Prettier code formatting
-npm run build:full     # 📦 Build both frontend and backend
+npm run lint           # ESLint code analysis
+npm run format         # Prettier code formatting
+npm run build:full     # Build both frontend and backend
 ```
 
 </details>
@@ -684,16 +684,16 @@ npm run lint          # ESLint checking
 
 ## Deployment
 
-### 🌐 Live Demo
+### Live Demo
 The application is deployed and available at: **[https://chessy-mu.vercel.app/](https://chessy-mu.vercel.app/)**
 
 Features available in the live demo:
-- ✅ **Full Chess Game** with advanced AI opponent
-- ✅ **Multiple Difficulty Levels** (Beginner to Master)
-- ✅ **AI Move Suggestions** and position analysis
-- ✅ **Modern Glassmorphic UI** with smooth animations
-- ✅ **Comprehensive Chess Rules** including special moves
-- ✅ **Responsive Design** optimized for desktop and mobile
+- **Full Chess Game** with advanced AI opponent
+- **Multiple Difficulty Levels** (Beginner to Master)
+- **AI Move Suggestions** and position analysis
+- **Modern Glassmorphic UI** with smooth animations
+- **Comprehensive Chess Rules** including special moves
+- **Responsive Design** optimized for desktop and mobile
 
 ### Production Build
 ```bash
