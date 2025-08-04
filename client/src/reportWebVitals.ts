@@ -1,13 +1,14 @@
-import { ReportHandler } from 'web-vitals';
-
-const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const reportWebVitals = (onPerfEntry?: any) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
+    import('web-vitals').then((vitals) => {
+      if (vitals.onCLS) vitals.onCLS(onPerfEntry);
+      if (vitals.onFID) vitals.onFID(onPerfEntry);
+      if (vitals.onFCP) vitals.onFCP(onPerfEntry);
+      if (vitals.onLCP) vitals.onLCP(onPerfEntry);
+      if (vitals.onTTFB) vitals.onTTFB(onPerfEntry);
+    }).catch(() => {
+      // Ignore web-vitals errors
     });
   }
 };

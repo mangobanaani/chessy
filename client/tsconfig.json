@@ -3,7 +3,7 @@
     /* Language and Environment */
     "target": "ES2020",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "jsx": "react-jsx",
+    "jsx": "react",
     
     /* Modules */
     "module": "ESNext",
@@ -12,19 +12,21 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+    "allowJs": true,
+    "checkJs": false,
     
-    /* Strict Type-Checking Options - Microsoft Recommended with some adjustments */
+    /* Strict Type-Checking Options */
     "strict": true,
     "noImplicitAny": true,
-    "strictNullChecks": false, /* Temporarily disabled for migration */
+    "strictNullChecks": false,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
-    "strictPropertyInitialization": false, /* Temporarily disabled for migration */
+    "strictPropertyInitialization": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": false, /* Temporarily disabled for migration */
+    "noUncheckedIndexedAccess": false,
     "noImplicitOverride": true,
-    "exactOptionalPropertyTypes": false, /* Temporarily disabled for migration */
+    "exactOptionalPropertyTypes": false,
     
     /* Emit */
     "noEmit": true,
@@ -33,7 +35,6 @@
     
     /* Interop Constraints */
     "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
     "skipLibCheck": true
   },
   "include": [
